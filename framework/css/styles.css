@@ -205,10 +205,9 @@ img.right,iframe.right{
 .cursive{
   font-family:"Pacifico",cursive;color:#b109aa
 }
-.highlight em,
-a.highlight{
+.highlight em, a.highlight{
   color:#b109aa;
-  font-size:106%;
+  font-size:16%;
   padding-right:2px
 }
 .small-type p,.small-type ul,.small-type ol{
@@ -258,7 +257,8 @@ a.highlight{
   width:350px
 }
 .slide .logo-stacked{
-  width:150px}
+  width:150px
+}
 #indicator{
   top:15px;
   right:20px;
@@ -331,7 +331,8 @@ textarea.snippet{
   width:100%;
   border:1px solid #222;
   padding:35px 12px 12px;
-  margin:15px 0;font-size:20px !important;
+  margin:15px 0;
+  font-size:20px !important;
   font-family:Andale Mono, Monaco, monospace;
   line-height:1.4
 }
@@ -339,7 +340,8 @@ textarea.snippet+.example{
   margin-top:0
 }
 .example,blockquote{
-  font-size:2.88rem;margin:15px 0
+  font-size:2.88rem;
+  margin:15px 0
 }
 .example p,blockquote p{
   margin:10px
@@ -377,10 +379,11 @@ blockquote{
   padding:30px 64px
 }
 .welcome .instructions p{
-  margin:0;line-height:1.32
+  margin:0;
+  line-height:1.32
 }
 .welcome h1{
-  background:#111;
+  background:#fff;
   line-height:1;
   margin:0;
   font-size:55px
