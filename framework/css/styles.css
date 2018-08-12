@@ -210,8 +210,8 @@ img.right,iframe.right{
   font-family:"Pacifico",cursive;color:#b109aa
 }
 .highlight em, a.highlight{
-  color:#b109aa;
-  font-size:160%;
+  color:#0a81db;
+  font-size:110%;
   padding-right:2px
 }
 .small-type p,.small-type ul,.small-type ol{
@@ -377,7 +377,7 @@ blockquote{
   padding:0
 }
 .welcome .logo-stacked{
-  margin-right:50px
+  margin-right:100px
 }
 .welcome h1,.welcome .instructions{
   padding:30px 64px
