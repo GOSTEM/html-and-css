@@ -18,7 +18,7 @@ body{
   line-height:1.4;
   font-family:"Montserrat",sans-serif;
   color:#444;
-  border-top:4px solid #b109aa;
+  border-top:4px solid #0a81db;
   -webkit-font-smoothing:antialiased;background:#ecf0f1
 }
 strong{
@@ -30,7 +30,7 @@ h1{
   letter-spacing:-0.05em;
   text-transform:uppercase;
   margin:0 0 25px;
-  color:#b109aa;
+  color:#0a81db;
   font-size:4rem
 }
 .title h1{
@@ -207,7 +207,8 @@ img.right,iframe.right{
   margin:0 auto;display:block
 }
 .cursive{
-  font-family:"Pacifico",cursive;color:#b109aa
+  font-family:"Pacifico",cursive;
+  color:#0a81db
 }
 .highlight em, a.highlight{
   color:#0a81db;
@@ -215,10 +216,12 @@ img.right,iframe.right{
   padding-right:2px
 }
 .small-type p,.small-type ul,.small-type ol{
-  font-size:2.88rem;line-height:1.3
+  font-size:2.88rem;
+  line-height:1.3
 }
 [class^="col-"],[class*="col-"]{
-  float:left;margin-right:2%
+  float:left;
+  margin-right:2%
 }
 [class^="col-"]:last-child,[class*="col-"]:last-child{
   margin-right:0
@@ -268,7 +271,7 @@ img.right,iframe.right{
   right:20px;
   font-size:20px;
   text-shadow:none;
-  color:#b109aa;
+  color:#0a81db;
   background:white;
   padding:2px 8px
 }
@@ -377,7 +380,8 @@ blockquote{
   padding:0
 }
 .welcome .logo-stacked{
-  margin-right:100px
+  margin-right:100px;
+  max-width:200px;
 }
 .welcome h1,.welcome .instructions{
   padding:30px 64px
