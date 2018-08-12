@@ -34,7 +34,8 @@ h1{
   font-size:4rem
 }
 .title h1{
-    font-size:7.5rem;font-weight:400
+  font-size:7.5rem;
+  font-weight:400
 }
  h1 code{
     font-size:inherit;
@@ -264,7 +265,7 @@ img.right,iframe.right{
   width:350px
 }
 .slide .logo-stacked{
-  width:150px
+  width:300px
 }
 #indicator{
   top:15px;
@@ -363,7 +364,8 @@ blockquote{
 }
 .delayed.displayed,.delayed-children>.displayed{
   opacity:1
-}.heading-bg span{
+}
+.heading-bg span{
   background:rgba(177,9,170,0.8);
   border-radius:5px;
   padding:0 10px 0 6px;
