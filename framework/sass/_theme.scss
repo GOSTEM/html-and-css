@@ -1,7 +1,8 @@
 /*
   Slideshow theme for Ladies Learning Code
-  @author Christina Truong | christinatruong.com
-  @version 2.0
+  @Original author Christina Truong | christinatruong.com
+  @Edited by Tia Joseph for Salesforce & Hervolution's GO!STEM program
+  @Version 3.0
 */
 
 /* Global styles
@@ -24,7 +25,7 @@ body {
   line-height: $line-height;
   font-family: $base-font;
   color: $gray;
-  border-top: 4px solid $llc-pink;
+  border-top: 4px solid #0a81db;
   -webkit-font-smoothing: antialiased;
   background: #ecf0f1;
 }
@@ -39,7 +40,7 @@ h1 {
   letter-spacing: -0.05em;
   text-transform: uppercase;
   margin: 0 0 25px;
-  color: $llc-pink;
+  color: #0a81db;
   font-size: $font-size-heading;
   
   .title & {
@@ -278,12 +279,12 @@ iframe.right {
 }
 .cursive {
   font-family: $cursive;
-  color: $llc-pink;
+  color: #0a81db;
 }
 .highlight em,
 a.highlight {
-  color: $llc-pink;
-  font-size: 106%;
+  color: #0a81db;
+  font-size: 100%;
   padding-right: 2px;
 }
 .small-type {
@@ -360,7 +361,7 @@ a.highlight {
   right: 20px;
   font-size: 20px;
   text-shadow: none;
-  color: $llc-pink;
+  color: #0a81db;
   background: white;
   padding: 2px 8px;
 }
@@ -487,7 +488,7 @@ e.g.
 */
 .heading-bg {
   span {
-    background: rgba($llc-pink, 0.8);
+    background: rgba(#0a81db, 0.8);
     border-radius: 5px;
     padding: 0 10px 0 6px;
     box-decoration-break: clone;
@@ -509,7 +510,8 @@ e.g.
     padding: 0;
   }
   .logo-stacked {
-    margin-right: 100px;
+    margin-right: 50px;
+    max-width: 300px;
   }
   h1,
   .instructions {
@@ -618,7 +620,7 @@ e.g.
   color: white;
 
   img {
-    width: 300px;
+    width: 200px;
     margin-right: -9px;
   }
 }
@@ -659,7 +661,7 @@ footer {
     color: $gray-dark;
     
     &:hover {
-      color: $llc-pink;
+      color: #0a81db;
     }
   }
 }
