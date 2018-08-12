@@ -86,13 +86,15 @@ ol>li,ul>li{
   margin-bottom:6px
 }
 ol ol,ol ul,ul ol,ul ul{
-  margin-top:6px;font-size:2.88rem
+  margin-top:6px;
+  font-size:2.88rem
 }
 ul{
   padding:0
 }
 ul>li{
-  margin-left:24px;list-style-type:none
+  margin-left:24px;
+  list-style-type:none
 }
 ul>li:before{
   content:"\203A";
@@ -171,7 +173,8 @@ th{
   width:50%
 }
 .note,.small-type .note,.resources,.resources+*{
-  line-height:1.3;font-size:2.4rem !important
+  line-height:1.3;
+  font-size:2.4rem !important
 }
 .note code,.small-type .note code,.resources code,.resources+* code{
   font-size:inherit
@@ -181,7 +184,8 @@ th{
 }
 .resources{
   margin-bottom:5px
-}.resources+ul li{
+}
+.resources+ul li{
   margin-bottom:0
 }
 .left{float:left}.left+ul{
@@ -207,7 +211,7 @@ img.right,iframe.right{
 }
 .highlight em, a.highlight{
   color:#b109aa;
-  font-size:16%;
+  font-size:160%;
   padding-right:2px
 }
 .small-type p,.small-type ul,.small-type ol{
@@ -393,7 +397,7 @@ blockquote{
   color:white;
   width:21%;
   font-family:"Quicksand",sans-serif;
-  color:#b109aa;
+  color:#0a81db;
   text-transform:uppercase;
   font-size:30px
 }
